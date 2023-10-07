@@ -1,0 +1,4 @@
+bind "g" "vstr map"
+set mapout "+mapexpand; set map vstr mapin"
+set mapin "-mapexpand; set map vstr mapout"
+set map "vstr mapout"
